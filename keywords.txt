@@ -1,0 +1,312 @@
+#######################################
+# Syntax Coloring Map PWM
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+PD1		KEYWORD1
+PD2		KEYWORD1
+PD3		KEYWORD1
+PD4		KEYWORD1
+PD5		KEYWORD1
+ff		KEYWORD1
+MGR		KEYWORD1
+MDX		KEYWORD1
+MRB		KEYWORD1
+fl		KEYWORD1
+fr		KEYWORD1
+fl3		KEYWORD1
+fr3		KEYWORD1
+fl4		KEYWORD1
+fr4		KEYWORD1
+sl		KEYWORD1
+sl3		KEYWORD1
+sr		KEYWORD1
+sr3		KEYWORD1
+ss		KEYWORD1
+sf		KEYWORD1
+
+s1		KEYWORD1
+s2		KEYWORD1
+s3		KEYWORD1
+s4		KEYWORD1
+s5		KEYWORD1
+s6		KEYWORD1
+s7		KEYWORD1
+s8		KEYWORD1
+
+FL4		KEYWORD1
+FR4		KEYWORD1
+SL		KEYWORD1
+SL3		KEYWORD1
+SR		KEYWORD1
+SR3		KEYWORD1
+
+front		KEYWORD1
+rear		KEYWORD1
+black		KEYWORD1
+white		KEYWORD1
+centerfront	KEYWORD1
+
+ll		KEYWORD1
+LL		KEYWORD1
+rr		KEYWORD1
+RR		KEYWORD1
+cc		KEYWORD1
+CC		KEYWORD1
+
+FF		KEYWORD1
+FL		KEYWORD1
+FR		KEYWORD1
+FL3		KEYWORD1
+FR3		KEYWORD1
+FRONT		KEYWORD1
+REAR		KEYWORD1
+BLACK		KEYWORD1
+WHITE		KEYWORD1
+
+ll		KEYWORD1
+rr		KEYWORD1
+LL		KEYWORD1
+RR		KEYWORD1
+
+SLF1		KEYWORD1
+SLF2		KEYWORD1
+SLF3		KEYWORD1
+SLF4		KEYWORD1
+SLF5		KEYWORD1
+SLF6		KEYWORD1
+SLF7		KEYWORD1
+SLF8		KEYWORD1
+
+SLR1		KEYWORD1
+SLR2		KEYWORD1
+SLR3		KEYWORD1
+SLR4		KEYWORD1
+SLR5		KEYWORD1
+SLR6		KEYWORD1
+SLR7		KEYWORD1
+SLR8		KEYWORD1
+
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+dxlsetid	KEYWORD2
+dxl_init	KEYWORD2
+dxlservo	KEYWORD2
+dxlwheel	KEYWORD2
+tracemode	KEYWORD2
+
+transporter_init		KEYWORD2
+set_up		KEYWORD2
+set_down1	KEYWORD2
+set_down2	KEYWORD2
+set_down3	KEYWORD2
+set_open	KEYWORD2
+set_close	KEYWORD2
+take		KEYWORD2
+dopen		KEYWORD2
+dclose		KEYWORD2
+
+up		KEYWORD2
+down1		KEYWORD2
+down2		KEYWORD2
+down3		KEYWORD2
+putz		KEYWORD2
+
+down		KEYWORD2
+standby		KEYWORD2
+set_down	KEYWORD2
+set_standby	KEYWORD2
+
+motor_type		KEYWORD2
+
+sline		KEYWORD2
+sturn		KEYWORD2
+
+xtake		KEYWORD2
+xopen		KEYWORD2
+xclose		KEYWORD2
+
+xdrive_line		KEYWORD2
+
+xup		KEYWORD2
+xdown1		KEYWORD2
+xdown2		KEYWORD2
+xputz		KEYWORD2
+xput		KEYWORD2
+xputs		KEYWORD2
+down		KEYWORD2
+
+
+fan		KEYWORD2
+fanon		KEYWORD2
+fanrear		KEYWORD2
+fanoff		KEYWORD2	
+		
+xline		KEYWORD2
+xline_init	KEYWORD2
+dxline_init	KEYWORD2
+drive_line	KEYWORD2
+drive_turn	KEYWORD2
+servo3		KEYWORD2
+servo4		KEYWORD2
+servo5		KEYWORD2
+servo_init 	KEYWORD2
+init_srf05	KEYWORD2
+init_gp2d12	KEYWORD2
+init_gp2d120	KEYWORD2
+line 		KEYWORD2
+linejump 		KEYWORD2
+linep 		KEYWORD2
+motor   	KEYWORD2
+left        	KEYWORD2
+linewide		KEYWORD2
+left1         	KEYWORD2
+left2         	KEYWORD2
+left3         	KEYWORD2
+left4         	KEYWORD2
+left5         	KEYWORD2
+left6         	KEYWORD2
+left7         	KEYWORD2
+left8         	KEYWORD2
+right        	KEYWORD2
+right1        	KEYWORD2
+right2        	KEYWORD2
+right3        	KEYWORD2
+right4        	KEYWORD2
+right5        	KEYWORD2
+right6        	KEYWORD2
+right7        	KEYWORD2
+right8        	KEYWORD2
+
+xmotor   	KEYWORD2
+xleft        	KEYWORD2
+xleft1         	KEYWORD2
+xleft2         	KEYWORD2
+xleft3         	KEYWORD2
+xleft4         	KEYWORD2
+xleft5         	KEYWORD2
+xleft6         	KEYWORD2
+xleft7         	KEYWORD2
+xleft8         	KEYWORD2
+xright        	KEYWORD2
+xright1        	KEYWORD2
+xright2        	KEYWORD2
+xright3        	KEYWORD2
+xright4        	KEYWORD2
+xright5        	KEYWORD2
+xright6        	KEYWORD2
+xright7        	KEYWORD2
+xright8        	KEYWORD2
+
+stop_end	KEYWORD2
+
+sensor		KEYWORD2
+linecolor	KEYWORD2
+buzzer		KEYWORD2
+
+linedelay	KEYWORD2
+findline	KEYWORD2
+lostline	KEYWORD2
+
+xlinedelay	KEYWORD2
+xfindline	KEYWORD2
+xlostline	KEYWORD2
+next		KEYWORD2
+
+InitTimers	KEYWORD2
+InitTimersSafe	KEYWORD2
+pwmWrite	KEYWORD2
+pwmWriteHR	KEYWORD2
+SetPinFrequency	KEYWORD2
+SetPinFrequencySafe	KEYWORD2
+GetPinResolution KEYWORD2
+
+Timer0_GetFrequency	KEYWORD2
+Timer0_SetFrequency	KEYWORD2
+Timer0_GetPrescaler	KEYWORD2
+Timer0_SetPrescaler	KEYWORD2
+Timer0_GetTop	KEYWORD2
+Timer0_SetTop	KEYWORD2
+Timer0_Initialize	KEYWORD2
+Timer0_GetResolution KEYWORD2
+
+Timer1_GetFrequency	KEYWORD2
+Timer1_SetFrequency	KEYWORD2
+Timer1_GetPrescaler	KEYWORD2
+Timer1_SetPrescaler	KEYWORD2
+Timer1_GetTop	KEYWORD2
+Timer1_SetTop	KEYWORD2
+Timer1_Initialize	KEYWORD2
+Timer1_GetResolution KEYWORD2
+
+Timer2_GetFrequency	KEYWORD2
+Timer2_SetFrequency	KEYWORD2
+Timer2_GetPrescaler	KEYWORD2
+Timer2_SetPrescaler	KEYWORD2
+Timer2_GetTop	KEYWORD2
+Timer2_SetTop	KEYWORD2
+Timer2_Initialize	KEYWORD2
+Timer2_GetResolution KEYWORD2
+
+Timer3_GetFrequency	KEYWORD2
+Timer3_SetFrequency	KEYWORD2
+Timer3_GetPrescaler	KEYWORD2
+Timer3_SetPrescaler	KEYWORD2
+Timer3_GetTop	KEYWORD2
+Timer3_SetTop	KEYWORD2
+Timer3_Initialize	KEYWORD2
+Timer3_GetResolution KEYWORD2
+
+Timer4_GetFrequency	KEYWORD2
+Timer4_SetFrequency	KEYWORD2
+Timer4_GetPrescaler	KEYWORD2
+Timer4_SetPrescaler	KEYWORD2
+Timer4_GetTop	KEYWORD2
+Timer4_SetTop	KEYWORD2
+Timer4_Initialize	KEYWORD2
+Timer4_GetResolution KEYWORD2
+
+Timer5_GetFrequency	KEYWORD2
+Timer5_SetFrequency	KEYWORD2
+Timer5_GetPrescaler	KEYWORD2
+Timer5_SetPrescaler	KEYWORD2
+Timer5_GetTop	KEYWORD2
+Timer5_SetTop	KEYWORD2
+Timer5_Initialize	KEYWORD2
+Timer5_GetResolution KEYWORD2
+
+
+set_xclose	KEYWORD2
+set_xopen	KEYWORD2
+set_xup	KEYWORD2
+set_xdown1	KEYWORD2
+set_xdown2	KEYWORD2
+
+sup		KEYWORD2
+sdown		KEYWORD2
+sstandby	KEYWORD2
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+
+
+ps_1 LITERAL1
+ps_8 LITERAL1
+ps_64 LITERAL1
+ps_256 LITERAL1
+ps_1024 LITERAL1
+
+psalt_1 LITERAL1
+psalt_8 LITERAL1
+psalt_32 LITERAL1
+psalt_64 LITERAL1
+psalt_128 LITERAL1
+psalt_256 LITERAL1
+psalt_1024 LITERAL1
